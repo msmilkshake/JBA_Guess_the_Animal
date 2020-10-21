@@ -1,0 +1,12 @@
+#
+# This is a test for checking the processing of the animal's name and building a question.
+#
+---
+- [start]
+#
+# Here we substitute all values from the data file
+#
+- [input, "{0}"]
+- - contains
+  - "Is it {1}?"
+  - "The program should ask: \"Is it {1}?\""

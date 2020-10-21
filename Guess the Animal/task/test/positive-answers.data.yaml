@@ -1,0 +1,52 @@
+#
+# The possible positive answers
+#
+---
+# The program must ignore the case of letters.
+- - y
+- - Y
+# The user can put a point
+- - y.
+- - Y.
+# An exclamation mark is also allowed.
+- - y!
+- - Y!
+# The program must ignore leading spaces.
+- - "   Yes"
+# As well ignore trailing spaces.
+- - "Yes   "
+# All of the following expressions are valid answers.
+- - yes
+- - Yes
+- - YES
+- - yes.
+- - Yes!
+- - YES!
+- - yES!
+- - YeS
+- - Yeah
+- - yeah
+- - Yeah!
+- - YeAh.
+- - YEAH
+- - yep
+- - yEp
+- - Yep!
+- - YEP.
+- - sure
+- - Sure!
+- - SURE!
+- - surE.
+- - right
+- - Right.
+- - Right!
+- - affirmative
+- - Affirmative!
+- - correct
+- - correct.
+- - indeed
+- - you bet
+- - exactly
+- - you said it.
+- - you said it!
+- - you said it

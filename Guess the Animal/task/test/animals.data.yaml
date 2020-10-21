@@ -1,0 +1,17 @@
+#
+# The first element is the user input and the second is the name of the animal with an article in the question
+#
+---
+- [cat, a cat]
+- [CAT, a cat]
+- [Cat, a cat]
+- [a cat, a cat]
+- [A cat, a cat]
+- [an cat, an cat]
+- [unicorn, an unicorn]
+- [a unicorn, a unicorn]
+- [x-ray, a x-ray]
+- [an x-ray, an x-ray]
+- [RacOON, a racoon]
+- [the cat, a the cat]
+
