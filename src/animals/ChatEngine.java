@@ -9,6 +9,7 @@ public class ChatEngine {
             "n", "no", "no way", "nah", "nope", "negative",
             "i don't think so", "yeah no"
     };
+    
     private final String[] positiveWords = {
             "y", "yes", "yeah", "yep", "sure", "right", "affirmative",
             "correct", "indeed", "you bet", "exactly", "you said it"

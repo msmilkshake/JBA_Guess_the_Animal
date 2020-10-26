@@ -1,8 +1,8 @@
 package animals;
 
 public class Animal {
-    private String article;
-    private String name;
+    private final String article;
+    private final String name;
     
     public Animal(String article, String name) {
         this.article = article;

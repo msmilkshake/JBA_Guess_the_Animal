@@ -1,6 +1,5 @@
 package animals;
 
-import java.time.LocalTime;
 import java.util.Scanner;
 
 public class TextUI {
@@ -12,7 +11,6 @@ public class TextUI {
     
     private final Scanner scn = new Scanner(System.in);
     private final ChatEngine engine = new ChatEngine();
-    private LocalTime time;
     private Animal animal;
     
     private TextUI() {
