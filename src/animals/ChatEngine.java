@@ -62,15 +62,9 @@ public class ChatEngine {
     }
     
     public Response processResponse(String response) {
-        Response sentiment = getResponseSentiment(response);
-        
-        return sentiment;
-    }
-    
-    private Response getResponseSentiment(String response) {
         response = response.trim()
                 .toLowerCase()
-                .replaceAll("[.,!?]", "");
+                .replaceFirst("[.!]", "");
         for (String s : negativeWords) {
             if (s.equals(response)) {
                 return Response.NEGATIVE;
